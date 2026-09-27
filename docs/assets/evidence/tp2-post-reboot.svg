@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <style>
+    .title{font:700 34px Arial,sans-serif;fill:#f7fafc}
+    .sub{font:400 20px Arial,sans-serif;fill:#9fdcff}
+    .term{font:22px 'DejaVu Sans Mono',monospace;fill:#d9f6e4}
+    .foot{font:400 17px Arial,sans-serif;fill:#92a7b8}
+  </style>
+  <rect width="1200" height="620" rx="24" fill="#07131f"/>
+  <rect x="26" y="26" width="1148" height="568" rx="18" fill="#0d1d2c" stroke="#1f4e6b" stroke-width="2"/>
+  <circle cx="58" cy="58" r="8" fill="#ff6b6b"/><circle cx="86" cy="58" r="8" fill="#ffd166"/><circle cx="114" cy="58" r="8" fill="#5dd39e"/>
+  <text x="54" y="105" class="title">TP2 · Post-reboot validation</text>
+  <text x="54" y="134" class="sub">Sanitized transcript of persistence checks</text>
+  <text x="54" y="150" class="term">$ sudo cryptsetup status data_crypt</text>
+  <text x="54" y="184" class="term">type: LUKS2 · active and in use</text>
+  <text x="54" y="218" class="term">$ sudo lvs</text>
+  <text x="54" y="252" class="term">lv_data   vg_data   15.00g</text>
+  <text x="54" y="286" class="term">$ findmnt /data</text>
+  <text x="54" y="320" class="term">/data /dev/mapper/vg_data-lv_data ext4 rw,relatime</text>
+  <text x="54" y="354" class="term">$ systemctl --failed</text>
+  <text x="54" y="388" class="term">0 loaded units listed.</text>
+  <text x="54" y="570" class="foot">Source: TP2 final report, validation after reboot.</text>
+</svg>
