@@ -1,8 +1,11 @@
 # Linux Hardening Labs
 
 [![CI](https://github.com/goozcena-gnl/linux-hardening-labs/actions/workflows/ci.yml/badge.svg)](https://github.com/goozcena-gnl/linux-hardening-labs/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)](labs)
+[![Security](https://img.shields.io/badge/focus-Linux%20Hardening-0A66C2)](docs/security-model.md)
 
-A two-stage Arch Linux hardening lab focused on verifiable security controls rather than compliance claims.
+Hands-on Arch Linux hardening labs (TP1 → TP2) covering encrypted storage, secure access, PAM, SSH + MFA, auditd, kernel hardening, permission monitoring and evidence-driven validation.
 
 The project starts with a hardened installation, encrypted application storage and protected administrative access (**TP1**), then extends the same VM with kernel hardening, stronger PAM policy, auditd, SSH key + OTP authentication, restrictive defaults and permission-change tracking (**TP2**).
 
@@ -101,6 +104,8 @@ Raw course PDFs, intermediate Word documents, MFA secrets, LUKS key material and
 - [Lessons learned](docs/lessons-learned.md)
 - [References](docs/references.md)
 - [Source inventory and publication scope](docs/source-inventory.md)
+- [GitHub repository metadata](docs/github-repository-metadata.md)
+- [v1.0.0 release notes](docs/releases/v1.0.0.md)
 
 ## Safety
 
