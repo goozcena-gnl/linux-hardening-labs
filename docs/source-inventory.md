@@ -35,7 +35,6 @@ The repository documentation is Markdown-first so that a reviewer can understand
 
 The TP2 assignment refers to a separate kernel-configuration recommendation document. An autonomous copy suitable for redistribution was not retained in this repository build. The project therefore documents the values and validation approach actually demonstrated by the lab without claiming independent ANSSI compliance.
 
-
 ## Visual evidence policy
 
 The final TP1 and TP2 reports contain terminal screenshots used during assessment. For the public repository, representative results are published as **sanitized SVG transcripts** in `docs/assets/evidence/`.
