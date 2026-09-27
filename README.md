@@ -14,11 +14,13 @@ The project starts with a hardened installation, encrypted application storage a
 
 > This is a learning and portfolio project. It does **not** claim ANSSI, CIS or any other formal compliance certification.
 
-## Portfolio case study
+## Start with the 2-minute review
 
-For a concise recruiter-oriented walkthrough of the project, start with the **[Linux Hardening Case Study](docs/case-study.md)**.
+For the fastest technical overview, open the **[Quick Review](docs/quick-review.md)**.
 
-It summarizes the architecture, security evolution, engineering decisions, visual evidence, known limitations and skills demonstrated without requiring a full read of the TP documentation.
+It covers the architecture, SSH/MFA, encrypted storage, kernel lock, auditd, reboot validation and demonstrated skills in seven compact sections.
+
+For the deeper engineering narrative, continue with the **[Linux Hardening Case Study](docs/case-study.md)**.
 
 ## Lab progression
 
@@ -104,6 +106,7 @@ Raw course PDFs, intermediate Word documents, MFA secrets, LUKS key material and
 
 ## Start here
 
+- **[2-minute Quick Review](docs/quick-review.md)**
 - **[Portfolio case study](docs/case-study.md)**
 - [Architecture](docs/architecture.md)
 - [Methodology](docs/methodology.md)
