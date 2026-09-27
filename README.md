@@ -77,17 +77,17 @@ Raw course PDFs, intermediate Word documents, MFA secrets, LUKS key material and
 
 ## Review paths
 
-**Recruiter / 2 minutes**
+### Recruiter / 2 minutes
 
 - [Quick Review](docs/quick-review.md)
 
-**Hiring manager / 5 minutes**
+### Hiring manager / 5 minutes
 
 - [Portfolio Case Study](docs/case-study.md)
 - [Evidence Gallery](docs/evidence.md)
 - [Validation and known gaps](docs/validation.md)
 
-**Technical reviewer**
+### Technical reviewer
 
 - [Architecture](docs/architecture.md)
 - [Methodology](docs/methodology.md)
