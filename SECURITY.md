@@ -19,6 +19,10 @@ The following must never be committed:
 - unreviewed environment dumps;
 - raw audit archives containing sensitive host data.
 
+## CI/CD supply-chain scanning
+
+GitHub Actions workflows are scanned with Poutine and uploaded as SARIF to GitHub Code Scanning. Poutine remains advisory; required merge checks continue to be `shell`, `docs`, and `secrets`.
+
 ## Scope
 
 This repository is an educational hardening lab. Configuration examples require adaptation and testing before use on another system.
