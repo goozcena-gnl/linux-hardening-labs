@@ -4,8 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)](labs)
 [![Security](https://img.shields.io/badge/focus-Linux%20Hardening-0A66C2)](docs/security-model.md)
+[![Release](https://img.shields.io/github/v/release/goozcena-gnl/linux-hardening-labs?display_name=tag)](https://github.com/goozcena-gnl/linux-hardening-labs/releases/latest)
 
 Hands-on Arch Linux hardening labs (TP1 → TP2) covering encrypted storage, secure access, PAM, SSH + MFA, auditd, kernel hardening, permission monitoring and evidence-driven validation.
+
+![Linux Hardening Labs](docs/assets/social-preview.png)
 
 The project starts with a hardened installation, encrypted application storage and protected administrative access (**TP1**), then extends the same VM with kernel hardening, stronger PAM policy, auditd, SSH key + OTP authentication, restrictive defaults and permission-change tracking (**TP2**).
 
