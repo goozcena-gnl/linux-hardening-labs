@@ -1,0 +1,11 @@
+[Unit]
+Description=Lock kernel module loading after required modules are loaded
+After=systemd-modules-load.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sysctl -w kernel.modules_disabled=1
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

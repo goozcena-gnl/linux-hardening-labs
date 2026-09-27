@@ -1,0 +1,28 @@
+# Generated audit archives and evidence
+*.tar
+*.tar.gz
+*.tgz
+*.sha256
+audit-*/
+evidence/raw/
+
+# Secrets and local authentication material
+*.key
+*.pem
+*.p12
+*.pfx
+.google_authenticator
+.env
+.env.*
+
+# Office/report intermediates
+*.docx
+*.doc
+~$*
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

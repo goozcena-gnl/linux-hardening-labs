@@ -1,0 +1,7 @@
+# Track successful umask and permission changes for interactive users.
+
+-a always,exit -F arch=b64 -S umask -F auid>=1000 -F auid!=unset -F success=1 -k user_perms
+-a always,exit -F arch=b32 -S umask -F auid>=1000 -F auid!=unset -F success=1 -k user_perms
+
+-a always,exit -F arch=b64 -S chmod -S fchmod -S fchmodat -S fchmodat2 -F auid>=1000 -F auid!=unset -F success=1 -k user_perms
+-a always,exit -F arch=b32 -S chmod -S fchmod -S fchmodat -S fchmodat2 -F auid>=1000 -F auid!=unset -F success=1 -k user_perms
