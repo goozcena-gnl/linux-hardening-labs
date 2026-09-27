@@ -29,6 +29,23 @@ jobs:
           format: sarif
           output: results.sarif
 
+      - name: Summarize Poutine findings
+        shell: bash
+        run: |
+          set -euo pipefail
+          count="$(jq '[.runs[].results[]] | length' results.sarif)"
+          echo "Poutine findings: $count"
+          jq -r '
+            .runs[].results[]? |
+            [
+              (.ruleId // "unknown-rule"),
+              (.level // "unknown-level"),
+              (.locations[0].physicalLocation.artifactLocation.uri // "unknown-file"),
+              ((.locations[0].physicalLocation.region.startLine // 0) | tostring),
+              (.message.text // "no-message")
+            ] | @tsv
+          ' results.sarif
+
       # Fork and Dependabot pull requests receive a read-only token.
       # Keep scanning them, but upload SARIF only when security-events:write is usable.
       - name: Upload Poutine SARIF
