@@ -133,3 +133,13 @@ After reboot, the lab verified:
 - `kernel.modules_disabled=1`;
 - active sshd, auditd, kernel module lock, permission monitor and cryptsetup unit;
 - no failed systemd units in the documented test.
+
+## Visual evidence
+
+Representative, sanitized evidence from the final report is available in the [evidence gallery](../evidence.md#tp2).
+
+![TP2 auditd validation](../assets/evidence/tp2-auditd.svg)
+
+![TP2 kernel hardening validation](../assets/evidence/tp2-kernel-lock.svg)
+
+![TP2 post-reboot validation](../assets/evidence/tp2-post-reboot.svg)

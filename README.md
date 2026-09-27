@@ -103,6 +103,7 @@ Raw course PDFs, intermediate Word documents, MFA secrets, LUKS key material and
 - [TP1 implementation](docs/tp1/implementation.md)
 - [TP2 implementation](docs/tp2/implementation.md)
 - [Validation and known gaps](docs/validation.md)
+- [Evidence gallery](docs/evidence.md)
 - [Security model](docs/security-model.md)
 - [Lessons learned](docs/lessons-learned.md)
 - [References](docs/references.md)

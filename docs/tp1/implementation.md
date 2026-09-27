@@ -85,3 +85,13 @@ The versioned script is [get_data.sh](../../labs/tp1/scripts/get_data.sh).
 ## 7. GRUB
 
 The GRUB configuration directory was restricted to root and authenticated editing of boot entries was tested. The repository documents the behavior but does not publish password hashes.
+
+## Visual evidence
+
+Representative, sanitized evidence from the final report is available in the [evidence gallery](../evidence.md#tp1).
+
+![TP1 SSH and TOTP validation](../assets/evidence/tp1-ssh-mfa.svg)
+
+![TP1 LUKS2 and LVM validation](../assets/evidence/tp1-luks-lvm.svg)
+
+![TP1 KEY recovery validation](../assets/evidence/tp1-key-recovery.svg)
