@@ -134,7 +134,6 @@ After reboot, the lab verified:
 - active sshd, auditd, kernel module lock, permission monitor and cryptsetup unit;
 - no failed systemd units in the documented test.
 
-
 ## Visual evidence
 
 Representative, sanitized evidence from the final report is available in the [evidence gallery](../evidence.md#tp2).
