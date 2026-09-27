@@ -1,1 +1,9 @@
 disableVersionCheck: true
+
+skip:
+  # Poutine reports this as a note because the Gitleaks publisher is not
+  # marked as a GitHub Marketplace Verified Creator. The action is retained
+  # for dedicated secret scanning and pinned to an exact reviewed commit SHA.
+  - rule: github_action_from_unverified_creator_used
+    purl:
+      - pkg:githubactions/gitleaks/gitleaks-action
