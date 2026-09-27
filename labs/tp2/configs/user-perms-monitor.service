@@ -1,0 +1,12 @@
+[Unit]
+Description=Write tracked permission changes to user_perms.log
+After=auditd.service
+Requires=auditd.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/user-perms-monitor.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
