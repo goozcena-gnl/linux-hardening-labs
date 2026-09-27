@@ -86,7 +86,6 @@ The versioned script is [get_data.sh](../../labs/tp1/scripts/get_data.sh).
 
 The GRUB configuration directory was restricted to root and authenticated editing of boot entries was tested. The repository documents the behavior but does not publish password hashes.
 
-
 ## Visual evidence
 
 Representative, sanitized evidence from the final report is available in the [evidence gallery](../evidence.md#tp1).
